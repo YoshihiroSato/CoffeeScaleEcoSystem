@@ -1,1 +1,6 @@
 # CoffeeScaleEcoSystem
+TTGOを使ってコーヒーで測定できるものをすべて測定する仕組み
+それぞれスタンドアロンで動作するほか、UDPでデータ放出
+ケトル用温度計：DS18B20＋TTGO-1
+重要計：HX711を2機、Arduinoで集約し、UART出力、それをTTGO-2で受ける
+CYDでUDPデータを集約、Googleスプレッドシートに記録
